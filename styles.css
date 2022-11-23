@@ -4,12 +4,17 @@ body, html {
 }
 
 .container {
-    height: 600px;
+    height: 80px;
     background: #1F2937;
     display: flex;
     justify-content: space-between;
     margin: 0px;
     padding: 16px;
+}
+
+.container.middleH {
+    height: 400px;
+    display: flex;
 }
 
 .item {
