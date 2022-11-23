@@ -1,6 +1,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
+    font-family: 'RobotoRegular';
 }
 
 .container {
@@ -13,7 +14,7 @@ body, html {
 }
 
 .container.middleH {
-    height: 400px;
+    height: 350px;
     display: flex;
 }
 
@@ -43,4 +44,31 @@ body, html {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 800;
+}
+
+.imageH {
+    margin-right: 150px;
+    width: 550px;
+    height: 250px;
+}
+
+.verticalH {
+    margin-left: 150px;
+    color: white;
+    width: 350px;
+}
+
+.button {
+    background-color: rgb(63, 161, 222);
+    color: white;
+    width: 55px;
+  //  -- need to make edges rounded -- //
+}
+
+.midsection h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
 }
