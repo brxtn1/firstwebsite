@@ -71,4 +71,26 @@ body, html {
     text-align: center;
     padding-top: 30px;
     font-weight: bolder;
+    padding-bottom: 70px;
+}
+
+.middleImages {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 225px;
+    padding-right: 225px;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.block {
+    border: 4px;
+    height: 175px;
+    width: 175px;
+    display: block;
+}
+
+.quoteSection {
+    height: 400px;
+    background-color: rgb(178, 178, 178);
 }
